@@ -1,6 +1,16 @@
 # Scattertext-PyData
 Notebooks for the Seattle PyData 2017 talk on Scattertext
-
+# Changes i made to the original code to get it working for python 3.6:
+1. use conda environment py36
+2. conda install cycler
+3. pip3 install dependencies while in py36
+4. python3 -m pip install ipykernel [see code](https://stackoverflow.com/questions/28831854/how-do-i-add-python3-kernel-to-jupyter-ipython)
+5. python -m ipykernel install --name py36
+6. conda install -c conda-forge matplotlib 
+7. pip install -U spacy
+8. python -m spacy download en
+9. initiate jupyter notebook 
+10. select a new notebook with py36
 A guide to using the python package [Scattertext](http://github.com/JasonKessler/scattertext).  If you feel so moved, please star it, fork it, or even contribute!
 
 Check out the introductory presentation [here](https://github.com/JasonKessler/Scattertext-PyData/raw/master/PyData2017Kessler.pptx).
